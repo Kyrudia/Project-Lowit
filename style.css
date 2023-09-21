@@ -1,0 +1,785 @@
+body {
+    background: #fff3f3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 1080px;
+    max-width: 1920px;
+    background: white;
+}
+
+.header {
+    position: absolute;
+    width: 93.85%;  /* Largeur en pixels  1920*/
+    height: 6.66%;   /* Hauteur en pixels 1080*/
+    left: 120px;
+    top: 0px;
+    border: thick double rgb(87, 87, 87);
+    background-color: transparent; /* Couleur de fond */
+}
+
+.barleft {
+    position: absolute;
+    width: 6%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    border-right-width: 4px;
+    background-color:white;
+    border: 1px solid rgba(24, 61, 96, 0.1);
+}
+
+.navbar {
+    position: absolute;
+    width: 93.85%;
+    height: 6.66%;
+    left: 120px;
+    top: 67px;
+    border: thick double rgb(87, 87, 87);
+    background-color: transparent; /* Couleur de fond */
+}
+
+.tabContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 1024px;
+    height: 40px;
+    left: 40px;
+    bottom: 0px;
+    background-color: transparent;
+}
+
+.tab1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    isolation: isolate;
+    position: absolute;
+    width: 141px;
+    height: 40px;
+    left: 0px;
+    background: transparent;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.VueDensemble {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.tab2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    isolation: isolate;
+    position: absolute;
+    left: 170px;
+    width: 148px;
+    height: 40px;
+    background: transparent;
+
+}
+
+.synthese {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #183D60;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.tab3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    width: 138px;
+    position: absolute;
+    left: 347px;
+    height: 40px;
+    background: transparent;
+}
+
+.consoTab {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #183D60;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.tab4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    position: absolute;
+    left: 517px;
+    width: 139px;
+    height: 40px;
+    background: transparent;
+}
+
+.decret {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #183D60;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.tab5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    position: absolute;
+    left: 689px;
+    width: 99px;
+    height: 40px;
+    background: transparent;
+}
+
+.scenario {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #183D60;
+}
+
+.tab6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 111px;
+    height: 40px;
+    left: 820px;
+    background: transparent;
+}
+
+.document {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #183D60;
+}
+
+.container {
+    position: absolute;
+    width: 1900px;
+    height: 860px;
+    left: 120px;
+    top: 130px;
+}
+
+.description {
+    position: absolute;
+    width: 1220px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1820px;
+    height: 280px;
+    left: 0px;
+    top: 8px;
+    background: #206694;
+}
+
+.stat {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    position: absolute;
+    width: 636px;
+    height: 57px;
+    right: 400px;
+    top: 40px;
+    background-color: transparent;
+}
+
+.consoG {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 145px;
+    height: 57px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-color: transparent;
+}
+
+.consoglobale {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Primary/Variants/White 75% */
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.kwh {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 2px;
+    display: flex;
+    width: 145px;
+    height: 35px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.poplot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 143px;
+    height: 57px;
+    background-color: transparent;
+}
+
+.population {
+    width: 104px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nbrPop {
+    width: 143px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.activité {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 136px;
+    height: 57px;
+    background-color: transparent;
+}
+
+.totalAct {
+    width: 108px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nbrActivité {
+    width: 136px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.EFlot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 68px;
+    height: 57px;
+    background-color: transparent;
+}
+
+
+.lotA {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.lot {
+    width: 68px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nbrEF {
+    width: 61px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.assujetti {
+    display: flex;
+    padding: 5px 7px;
+    gap: 2px;
+    width: 80px;
+    height: 12px;
+    border-radius: 10% / 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.adresseLowit {
+    width: 256px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.component {
+    position: absolute;
+    left: 0%;
+    right: 64.17%;
+    top: 0%;
+    bottom: 0%;
+    width: 30%;
+    height: 100%;
+    background: url(lowit.png);
+}
+
+.adresse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 256px;
+    height: 114px;
+    left: 40px;
+    top: 40px;
+    background-color: transparent;
+}
+
+.blankcard1 {
+    position: absolute;
+    width: 1240px;
+    height: 150px;
+    left: 40px;
+    top: 312px;
+    background: #FFFFFF;
+    border: thick double rgb(49, 49, 49);
+}
+
+.imagebat1 {
+    position: absolute;
+    width: 226px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: url(lowit.png);
+}
+
+.batiment1 {
+    position: absolute;
+    width: 113px;
+    height: 30px;
+    left: 258px;
+    top: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #183D60;
+}
+
+.descriptionBat1 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    right: 120px;
+    width: 620px;
+    height: 52px;
+    background: transparent;
+}
+
+.construction {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 135px;
+    height: 52px;
+    background-color: transparent;
+}
+
+.année {
+    width: 135px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(24, 61, 96, 0.5);
+}
+
+.date {
+    width: 73px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+    color: #183D60;
+}
+
+.chauffage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    left: 175px;
+    width: 129px;
+    height: 52px;
+    background-color: transparent;
+}
+
+.energie {
+    width: 129px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(24, 61, 96, 0.5);
+}
+
+.gaz {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 10px;
+    gap: 4px;
+    width: 123px;
+    height: 28px;
+    background: #FF794D;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2px;
+    color: #FFFFFF;
+}
+
+.superficieBat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    left: 344px;
+    position: absolute;
+    width: 135px;
+    height: 52px;
+    background-color: transparent;
+}
+
+.superficie {
+    width: 135px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(24, 61, 96, 0.5);
+}
+
+.m2 {
+    width: 58px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+    color: #183D60;
+}
+
+.consoBat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    left: 515px;
+    position: absolute;
+    width: 105px;
+    height: 52px;
+    background-color: transparent;
+}
+
+.consommation {
+    width: 93px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(24, 61, 96, 0.5);
+}
+
+.BatKWH {
+    width: 81px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+    color: #183D60;
+}
+
+.tabDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 32px;
+    gap: 8px;
+    bottom: 0px;
+    left: 220px;
+    position: absolute;
+    width: 288px;
+    height: 30px;
+    background: rgba(24, 61, 96, 0.05);
+}
+
+.Détails {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(24, 61, 96, 0.5);
+}
+
+.tab1Details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 32px;
+    gap: 8px;
+    width: 610px;
+    height: 30px;
+    bottom: 0px;
+    left: 572px;
+    position: absolute;
+    background: rgba(24, 61, 96, 0.05);
+}
+
+.DétailsTab1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(24, 61, 96, 0.5);
+}
+
+.blankcard2 {
+    position: absolute;
+    width: 1240px;
+    height: 150px;
+    left: 40px;
+    top: 486px;
+    background: #FFFFFF;
+    border: thick double rgb(49, 49, 49);
+}
+
+.imageBat2 {
+    position: absolute;
+    width: 226px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: url(lowit.png);
+}
+
+.batiment2 {
+    position: absolute;
+    width: 113px;
+    height: 30px;
+    left: 258px;
+    top: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #183D60;
+}
+
+.descriptionBat2 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    right: 120px;
+    width: 620px;
+    height: 52px;
+    background:transparent;
+}
+
+.bat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    
+    width: 190px;
+    height: 30px;
+}
+
+.Batiment {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    position: absolute;
+    top: 2px;
+    left: 150px;
+    align-items: center;
+    color: rgba(24, 61, 96, 0.25);
+}
+
+
