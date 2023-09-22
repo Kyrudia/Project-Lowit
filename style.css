@@ -12,10 +12,177 @@ body {
     position: absolute;
     width: 93.85%;  /* Largeur en pixels  1920*/
     height: 6.66%;   /* Hauteur en pixels 1080*/
-    left: 120px;
-    top: 0px;
+    left: 6.25%;
+    top: 0%;
+    align-items: center;
     border: thick double rgb(87, 87, 87);
-    background-color: transparent; /* Couleur de fond */
+    background-color: transparent;
+}
+
+.fleche {
+    width: 28px;
+    height: 28px;
+    top: 27%;
+    left: 16%;
+    position: absolute;
+    color: rgba(24, 61, 96, 0.25);
+}
+
+.bat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 155px;
+    top: calc(50% - 40px/2);
+    background-color: transparent;
+}
+
+.patrimoineTab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    gap: 8px;
+    width: 129px;
+    height: 28px;
+    left: 290px;
+    background-color: transparent;
+}
+
+.patriTab {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 10px;
+    gap: 4px;
+    width: 129px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    background: #3498DB;
+    border-radius: 100px;
+}
+
+.patrimoine {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    color: #FFFFFF;
+}
+
+.logoMontauban {
+    width: 60px;
+    height: 60px;
+    top: 5%;
+    left: 2.5%;
+    position: absolute;
+}
+
+.Batiment {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 80px;
+    margin-right: 140px;
+    color: rgba(2, 36, 68, 0.466);
+}
+
+.chevron {
+    margin-left: 6.9%;
+    margin-top: 1.5%;
+    top: 0%;
+    position: absolute;
+    width: 1.66%;
+    height: 0%;
+    border: 1px solid rgba(24, 61, 96, 0.25);
+    transform: rotate(-90deg);
+}
+
+.lotAHeader {
+    width: 70px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    left: 100px;
+    align-items: center;
+    color: #183D60;
+}
+
+.modifGen {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 200px;
+    width: 384px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.modifBat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 8px;
+    width: 140px;
+    height: 22px;
+    background-color: transparent;
+    border: 1px solid rgba(24, 61, 96, 0.25);
+}
+
+.buttonModif {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    width: 600px;
+    height: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #183D60;
+}
+
+.genBat {
+    position: absolute;
+    top: 1px;
+    bottom: 10px;
+    right: 0px;
+    width: 150px;
+    height: 40px;
+    background: #206694;
+    border-radius: 4px;
+}
+
+.buttonGen {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .barleft {
@@ -27,6 +194,238 @@ body {
     border-right-width: 4px;
     background-color:white;
     border: 1px solid rgba(24, 61, 96, 0.1);
+}
+
+.logoTab {
+    position: absolute;
+    width: 62px;
+    height: 23px;
+    left: calc(50% - 62px/2);
+    top: 32px;
+}
+
+.logo {
+    width: 62px;
+    height: 23px;
+}
+
+.containerBarleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 120px;
+    height: 530px;
+    left: calc(50% - 120px/2);
+    top: 103px;
+    background-color: transparent;
+}
+
+.accueilTab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    position: absolute;
+    width: 120px;
+    height: 78px;
+    background-color: transparent;
+}
+
+.accueil {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 20px;
+    display: flex;
+    position: absolute;
+    left: 29%;
+    right: 0%;
+    top: 75%;
+    bottom: 0%;
+    color: #183D60;
+}
+
+.iconeAccueil {
+    width: 60px;
+    height: 60px;
+
+}
+
+.batimentTab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    position: absolute;
+    top: 99px;
+    width: 120px;
+    height: 78px;
+    background-color: transparent;
+}
+
+.batimentLeft {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    display: flex;
+    position: absolute;
+    left: 20%;
+    right: 0%;
+    top: 75%;
+    bottom: 0%;
+    color: #183D60;
+}
+
+.iconeBatiment {
+    width: 60px;
+    height: 60px;
+
+}
+
+.scenarioTab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    position: absolute;
+    top: 199px;
+    width: 120px;
+    height: 78px;
+    background-color: transparent;
+}
+
+.scenarioLeft {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    display: flex;
+    position: absolute;
+    left: 19%;
+    right: 0%;
+    top: 75%;
+    bottom: 0%;
+    color: #183D60;
+}
+
+.iconeScenario {
+    width: 60px;
+    height: 60px;
+
+}
+
+.suiviTab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    position: absolute;
+    top: 299px;
+    width: 120px;
+    height: 78px;
+    background-color: transparent;
+}
+
+.suiviLeft {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    right: 0%;
+    top: 75%;
+    bottom: 0%;
+    color: #183D60;
+}
+
+.iconeSuivi {
+    width: 40px;
+    height: 40px;
+}
+
+.decretTab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    position: absolute;
+    top: 399px;
+    width: 120px;
+    height: 78px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.decretLeft {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    display: flex;
+    position: absolute;
+    left: 5%;
+    right: 0%;
+    top: 75%;
+    bottom: 0%;
+    color: #183D60;
+}
+
+.iconeDecret {
+    width: 45px;
+    height: 45px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    position: absolute;
+    height: 78px;
+    left: 0px;
+    right: 0px;
+    bottom: 48px;
+    background-color: transparent;
+}
+
+.userTab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+    width: 65px;
+    height: 62px;
+    background-color: transparent;
+}
+
+.userLeft {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 20px;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    color: #183D60;
+}
+
+.iconeUser {
+    width: 45px;
+    height: 45px;
 }
 
 .navbar {
@@ -46,10 +445,9 @@ body {
     align-items: center;
     padding: 0px;
     gap: 8px;
-
     position: absolute;
-    width: 1024px;
-    height: 40px;
+    width: 53.33%;
+    height: 65.70%;
     left: 40px;
     bottom: 0px;
     background-color: transparent;
@@ -64,8 +462,8 @@ body {
     gap: 8px;
     isolation: isolate;
     position: absolute;
-    width: 141px;
-    height: 40px;
+    width: 12.34%;
+    height: 3.90%;
     left: 0px;
     background: transparent;
     border-radius: 4px 4px 0px 0px;
@@ -92,8 +490,8 @@ body {
     isolation: isolate;
     position: absolute;
     left: 170px;
-    width: 148px;
-    height: 40px;
+    width: 7.70%;
+    height: 3.90%;
     background: transparent;
 
 }
@@ -117,10 +515,10 @@ body {
     align-items: center;
     padding: 0px 16px;
     gap: 8px;
-    width: 138px;
+    width: 7.18%;
     position: absolute;
     left: 347px;
-    height: 40px;
+    height: 3.90%;
     background: transparent;
 }
 
@@ -145,8 +543,8 @@ body {
     gap: 8px;
     position: absolute;
     left: 517px;
-    width: 139px;
-    height: 40px;
+    width: 11%;
+    height: 3.90%;
     background: transparent;
 }
 
@@ -171,8 +569,8 @@ body {
     gap: 8px;
     position: absolute;
     left: 689px;
-    width: 99px;
-    height: 40px;
+    width: 5.15%;
+    height: 3.90%;
     background: transparent;
 }
 
@@ -195,8 +593,8 @@ body {
     padding: 0px 16px;
     gap: 8px;
     position: absolute;
-    width: 111px;
-    height: 40px;
+    width: 5.78%;
+    height: 3.90%;
     left: 820px;
     background: transparent;
 }
@@ -204,7 +602,7 @@ body {
 .document {
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     display: flex;
     align-items: center;
@@ -214,8 +612,8 @@ body {
 
 .container {
     position: absolute;
-    width: 1900px;
-    height: 860px;
+    width: 98.95%;
+    height: 83.98%;
     left: 120px;
     top: 130px;
 }
@@ -228,8 +626,8 @@ body {
     top: 0px;
     box-sizing: border-box;
     position: absolute;
-    width: 1820px;
-    height: 280px;
+    width: 94.79%;
+    height: 35.34%;
     left: 0px;
     top: 8px;
     background: #206694;
@@ -242,8 +640,8 @@ body {
     padding: 0px;
     gap: 48px;
     position: absolute;
-    width: 636px;
-    height: 57px;
+    width: 33.12%;
+    height: 5.56%;
     right: 400px;
     top: 40px;
     background-color: transparent;
@@ -255,8 +653,8 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-    width: 145px;
-    height: 57px;
+    width: 20.55%;
+    height: 5.56%;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -268,10 +666,8 @@ body {
     font-weight: 600;
     font-size: 11px;
     line-height: 18px;
-    /* identical to box height */
     display: flex;
     align-items: center;
-    /* Primary/Variants/White 75% */
     color: rgba(255, 255, 255, 0.75);
 }
 
@@ -293,8 +689,8 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-    width: 143px;
-    height: 57px;
+    width: 20.55%;
+    height: 5.56%;
     background-color: transparent;
 }
 
@@ -328,8 +724,8 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-    width: 136px;
-    height: 57px;
+    width: 20.55%;
+    height: 5.56%;
     background-color: transparent;
 }
 
@@ -363,8 +759,8 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-    width: 68px;
-    height: 57px;
+    width: 20.55%;
+    height: 5.56%;
     background-color: transparent;
 }
 
@@ -406,13 +802,13 @@ body {
     display: flex;
     padding: 5px 7px;
     gap: 2px;
-    width: 80px;
-    height: 12px;
+    width: 5.16%;
+    height: 2.17%;
     border-radius: 10% / 50%;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 8px;
     display: flex;
     align-items: center;
 }
@@ -445,8 +841,8 @@ body {
     padding: 0px;
     gap: 8px;
     position: absolute;
-    width: 256px;
-    height: 114px;
+    width: 13.33%;
+    height: 11.13%;
     left: 40px;
     top: 40px;
     background-color: transparent;
@@ -454,8 +850,8 @@ body {
 
 .blankcard1 {
     position: absolute;
-    width: 1240px;
-    height: 150px;
+    width: 69%;
+    height: 54.64%;
     left: 40px;
     top: 312px;
     background: #FFFFFF;
@@ -464,8 +860,8 @@ body {
 
 .imagebat1 {
     position: absolute;
-    width: 226px;
-    height: 150px;
+    width: 17.77%;
+    height: 100%;
     left: 0px;
     top: 0px;
     position: absolute;
@@ -478,8 +874,8 @@ body {
 
 .batiment1 {
     position: absolute;
-    width: 113px;
-    height: 30px;
+    width: 15%;
+    height: 2.92%;
     left: 258px;
     top: 24px;
     font-style: normal;
@@ -498,12 +894,12 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-    right: 120px;
-    width: 620px;
-    height: 52px;
+    right: 300px;
+    width: 32.29%;
+    height: 5.07%;
     background: transparent;
 }
-
+ 
 .construction {
     display: flex;
     flex-direction: column;
@@ -511,8 +907,8 @@ body {
     padding: 0px;
     gap: 4px;
     position: absolute;
-    width: 135px;
-    height: 52px;
+    width: 7.03%;
+    height: 5.07%;
     background-color: transparent;
 }
 
@@ -548,8 +944,8 @@ body {
     gap: 4px;
     position: absolute;
     left: 175px;
-    width: 129px;
-    height: 52px;
+    width: 6.71%;
+    height: 5.07%;
     background-color: transparent;
 }
 
@@ -571,8 +967,8 @@ body {
     align-items: flex-start;
     padding: 10px 10px;
     gap: 4px;
-    width: 123px;
-    height: 28px;
+    width: 300.40%;
+    height: 5.73%;
     background: #FF794D;
     border-radius: 100px;
     font-style: normal;
@@ -590,8 +986,8 @@ body {
     gap: 4px;
     left: 344px;
     position: absolute;
-    width: 135px;
-    height: 52px;
+    width: 7.03%;
+    height: 5.07%;
     background-color: transparent;
 }
 
@@ -627,8 +1023,8 @@ body {
     gap: 4px;
     left: 515px;
     position: absolute;
-    width: 105px;
-    height: 52px;
+    width: 5.46%;
+    height: 5.07%;
     background-color: transparent;
 }
 
@@ -665,9 +1061,10 @@ body {
     bottom: 0px;
     left: 220px;
     position: absolute;
-    width: 288px;
-    height: 30px;
+    width: 23.20%;
+    height: 16%;
     background: rgba(24, 61, 96, 0.05);
+    border: 1px solid rgba(24, 61, 96, 0.1);
 }
 
 .Détails {
@@ -687,12 +1084,13 @@ body {
     align-items: center;
     padding: 8px 32px;
     gap: 8px;
-    width: 610px;
-    height: 30px;
+    width: 49.20%;
+    height: 16%;
     bottom: 0px;
     left: 572px;
     position: absolute;
     background: rgba(24, 61, 96, 0.05);
+    border: 1px solid rgba(24, 61, 96, 0.1);
 }
 
 .DétailsTab1 {
@@ -708,8 +1106,8 @@ body {
 
 .blankcard2 {
     position: absolute;
-    width: 1240px;
-    height: 150px;
+    width: 69%;
+    height: 54.64%;
     left: 40px;
     top: 486px;
     background: #FFFFFF;
@@ -718,8 +1116,8 @@ body {
 
 .imageBat2 {
     position: absolute;
-    width: 226px;
-    height: 150px;
+    width: 17.77%;
+    height: 100%;
     left: 0px;
     top: 0px;
     left: 0%;
@@ -731,8 +1129,8 @@ body {
 
 .batiment2 {
     position: absolute;
-    width: 113px;
-    height: 30px;
+    width: 15%;
+    height: 2.92%;
     left: 258px;
     top: 24px;
     font-style: normal;
@@ -751,35 +1149,9 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-    right: 120px;
-    width: 620px;
-    height: 52px;
+    right: 300px;
+    width: 32.29%;
+    height: 5.07%;
     background:transparent;
 }
-
-.bat {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 6px;
-    
-    width: 190px;
-    height: 30px;
-}
-
-.Batiment {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    display: flex;
-    position: absolute;
-    top: 2px;
-    left: 150px;
-    align-items: center;
-    color: rgba(24, 61, 96, 0.25);
-}
-
 
